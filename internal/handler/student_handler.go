@@ -21,7 +21,7 @@ func (h *StudentHandler) UploadFile(c *gin.Context) {
 	go h.processor.Start(filename)
 
 	c.JSON(http.StatusOK, gin.H{
-		"message": "Permintaan diterima! Data sedang diproses di backgroud.",
+		"message": "Permintaan diterima! Data sedang diproses di background.",
 		"file":    filename,
 		"status":  "Check terminal logs for progress",
 	})
