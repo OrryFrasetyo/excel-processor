@@ -48,7 +48,7 @@ A high-performance backend service designed for **Bulk Import** data processing 
 
 1. Clone this repository.
 2. Create .env file (copy from .env.example if available).
-3. Jalankan perintah:
+3. Run the command:
    
    ```bash
    docker-compose up -d --build
